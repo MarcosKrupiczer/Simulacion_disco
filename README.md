@@ -3,5 +3,5 @@ Se simula por elementos finitos, un disco de frenos en distintas condiciones de 
 
 La ecuación diferencial que gobierna el problema es:
 
-$^t\rho ^tc_p\frac{\partial ^tT}{\partial t}+ ^t\rho ^tc_p ^t\underline{\text{v}}\cdot ^t\underline{\nabla}\,^tT = \:^tk\,^t\nabla^2\,^tT$
+$^t\rho \: ^tc_p\frac{\partial ^tT}{\partial t}+ ^t\rho ^tc_p ^t\underline{\text{v}}\cdot ^t\underline{\nabla}\,^tT = \:^tk\,^t\nabla^2\,^tT$
 
