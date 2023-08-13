@@ -24,3 +24,5 @@ Siendo:
 - $\kappa$ un coeficiente que determina qué porción de calor es absorbida por el disco: $\kappa=\frac{\sqrt{k \ c\_p \ \rho}}{\sqrt{k \ c\_p \ \rho} + \sqrt{k\_p \ c\_{p_p} \ \rho\_p}}$
 
 Donde las propiedades con subíndice $p$ son las de la pastilla de frenos.
+
+Se plantean las propiedades (del disco y del aire) como funciones de la temperatura, por lo tanto, el problema se trata como uno no lineal.
