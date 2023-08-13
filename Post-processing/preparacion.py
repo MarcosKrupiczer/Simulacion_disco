@@ -69,6 +69,8 @@ V = 250 #km/h
 #Se cargan los resultados obtenidos del processing
 path = f'RESULTADOS//NO LINEAL//{V}kmh//resultados_{V}.txt'
 T = np.loadtxt(path,delimiter=',')
+#Temperatura minima alcanzada
+Tmin = np.amin(T)
 #Temperatura maxima alcanzada
 Tmax = np.amax(T)
 print(f'Temperatura maxima: {Tmax}')
