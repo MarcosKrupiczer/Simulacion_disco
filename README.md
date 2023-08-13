@@ -8,4 +8,5 @@ La velocidad total de cada particula del disco es igual a la suma de su velocida
 $$^t\underline{\text{v}} \ = \ ^t\underline{\text{v}_d} \ + \ ^t\underline{\text{v}_t}$$
 $$^t\underline{\text{v}_d} = -\ ^t\omega \ ^ty \ \underline{e_x} + \ ^t\omega \ ^tx \ \underline{e_y}$$
 $$^t\underline{\text{v}_t} = -\ ^tV \ \underline{e_x}$$
-Por motivos de estabilidad numérica, se considera únicamente la velocidad de rotación de las partículas en la ecuación diferencial.
+Por motivos de estabilidad numérica, se considera únicamente la velocidad de rotación de las partículas en la ecuación diferencial. La componente de traslación se toma en cuenta agregando una condición de borde de convección:
+$$^tq_{\text{conv}}=-\^tk \ ^t\underline{\nabla} \ ^tT \cdot \underline{n} = \ ^th_c \left(^tT - T_\infty\right)\quad ^t\underline{\text{x}} \ \in \ S_c$$
