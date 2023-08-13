@@ -15,11 +15,10 @@ Siendo $S_c$ la superficie del disco expuesta al aire exterior, $\underline{n\_c
 Se tiene también una condición de borde del tipo Neumann, que representa la generación de calor por fricción en la superficie de contacto entre la pastilla y el disco de frenos.
 $$q=-\ ^tk \ ^t\underline{\nabla} \ ^tT \cdot \underline{n\_q}= \kappa \ \frac{m\frac{^tV^2}{t\_f} - \frac{1}{2}\rho\_\infty \ C\_D \ A\_R \ ^tV^3}{8 \ A\_f}\quad\quad ^t\underline{\text{x}} \ \in \ S\_q$$
 Siendo:
-\begin{\itemize}
-\item $m$ la masa del vehículo
-\item $^tV$ la velocidad del vehículo
-\item $t_f$ el tiempo de frenada
-\item $\rho\_\infty$ la densidad de referencia del aire
-\item $C\_D \ A\_R$ el coeficiente de Drag por el área de referencia
-\item $A\_f$ el área de contacto entre pastilla y disco de frenos (área de la superficie $S\_q$
-\end{\itemize}
+- $m$ la masa del vehículo
+- $^tV$ la velocidad del vehículo
+- $t_f$ el tiempo de frenada
+- $\rho\_\infty$ la densidad de referencia del aire
+- $C\_D \ A\_R$ el coeficiente de Drag por el área de referencia
+- $A\_f$ el área de contacto entre pastilla y disco de frenos (área de la superficie $S\_q$
+
