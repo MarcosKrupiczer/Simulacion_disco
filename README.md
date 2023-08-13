@@ -27,6 +27,6 @@ Siendo:
 Se plantean las propiedades (del disco y del aire) como funciones de la temperatura, por lo tanto, el problema se trata como uno no lineal.
 
 <p align="center">
-  <img width="600" height="600" src="Processing/prop_aire.png">
+  <img width="700" height="550" src="Processing/prop_aire.png">
 </p>
 
