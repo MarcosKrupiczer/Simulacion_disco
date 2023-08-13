@@ -1,5 +1,11 @@
+#Se importan librerias
+#numpy para operar con los arrays, cargar los resultados, etc...
 import numpy as np
+#matplotlib para graficar en 2D
 import matplotlib.pyplot as plt
+#pyvista para graficar en 3D (imagenes y videos)
+import pyvista as pv
+#curve_fit de scipy para trazar curvas que ajusten los datos
 from scipy.optimize import curve_fit
 
 #Informacion del mallado (PREPROCESSING)
@@ -59,8 +65,8 @@ with open('Malla5//disco.msh','r') as m:
 MC3D = np.delete(MC3D,[0,1,2,3,4],axis=1)
 
 
-#Velocidad considerada
-V = 250 #km/h
-#Se cargan los resultados
+#Velocidad considerada (depende del caso)
+V = 250 #km/h 
+#Se cargan los resultados obtenidos del processing
 path = f'RESULTADOS//NO LINEAL//{V}kmh//resultados_{V}.txt'
 T = np.loadtxt(path,delimiter=',')
