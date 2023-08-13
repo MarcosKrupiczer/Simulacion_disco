@@ -29,5 +29,6 @@ Se plantean las propiedades (del disco y del aire) como funciones de la temperat
 <p align="center">
   <img width="700" height="600" src="Processing/prop_aire.png">
 </p>
-
-
+<p align="center">
+  <img width="700" height="600" src="Processing/prop_disco.png">
+</p>
