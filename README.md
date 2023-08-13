@@ -7,5 +7,5 @@ $$^t\rho \ ^tc_p\frac{\partial ^tT}{\partial t}+\ ^t\rho \ ^tc_p \ ^t\underline{
 La velocidad total de cada particula del disco es igual a la suma de su velocidad de rotación ($^t\underline{\text{v}_d}$) y la velocidad de traslación del vehículo ($^t\underline{\text{v}_t}$).
 $$^t\underline{\text{v}} \ = \ ^t\underline{\text{v}_d} \ + \ ^t\underline{\text{v}_t}$$
 $$^t\underline{\text{v}_d} = \ ^t\omega \ r \ ^t\underline{g_\theta} = -\ ^t\omega \ ^ty \ \underline{e_x} + \ ^t\omega \ ^tx \ \underline{e_y}$$
-$$^t\underline{\text{v}_t} = -\ ^tV \ \underline{e_x}
+$$^t\underline{\text{v}_t} = -\ ^tV \ \underline{e_x}$$
 Por motivos de estabilidad numérica, se considera únicamente la velocidad de rotación de las partículas en la ecuación diferencial.
