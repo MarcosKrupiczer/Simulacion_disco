@@ -30,7 +30,7 @@ def funcion_Qlocal(X,MC3De,plano,ω,γ,k,ρcp,CDA,m,nGauss):
         #Se obtienen los pesos y puntos de Gauss
         r,w = intregralGauss(nGauss)
         #Se inicializa el vector de calor local por conduccion
-        Qke = np.zeros((nodosXelemento3D,1))
+        Qqe = np.zeros((nodosXelemento3D,1))
         #Densidad del aire
         ρa = 1.2 #kg/m^3
         #Flujo de calor total
