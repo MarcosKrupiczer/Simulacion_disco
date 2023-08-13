@@ -22,4 +22,5 @@ Siendo:
 - $C\_D \ A\_R$ el coeficiente de Drag por el área de referencia
 - $A\_f$ el área de contacto entre pastilla y disco de frenos (área de la superficie $S\_q$ con normal $\underline{n\_q}$)
 - $\kappa$ un coeficiente que determina qué porción de calor es absorbida por el disco: $\kappa=\frac{\sqrt{k \ c\_p \ \rho}}{\sqrt{k \ c\_p \ \rho} + \sqrt{k\_p \ c\_{p_p} \ \rho\_p}}$
+
 Donde las propiedades con subíndice $p$ son las de la pastilla de frenos.
