@@ -7,5 +7,6 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **pesosPetrov**: se calcula el vector de pesos de Petrov utilizado para estabilizar la solución. Surge de plantear el problema con una formulación Euleriana (con el término convectivo en la ecuación diferencial que da orígen a la matriz convectiva)
 - **gauss**: se obtienen los pesos y las posiciones de Gauss para un determinado número de puntos de Gauss escogido por el usuario, que puede variar entre 1 y 4
 - **matrizMasaLocal**: se calcula la matriz de masa de un elemento
-- **conveccion**: se calcula la matriz de rigidez y el vector de calor debidos a la condición de borde de convección
+- **conveccionLocal**: se calcula la matriz de rigidez y el vector de calor de un elemento debidos a la condición de borde de convección
+- **matrizRigidezLocal**: se calcula la matriz de rigidez por conducción de un elemento
 - 
