@@ -11,4 +11,7 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **matrizRigidezLocal.py**: se calcula la matriz de rigidez por conducción de un elemento
 - **vectorCalorNeumannLocal.py**: se calcula el vector de calor de un elemento debido a la condición de borde de Neumann (calor generado por la fricción entre la pastilla y el disco de frenos)
 - **interseccionListas.py**: se define una función que determina la intersección entre dos listas
+- **condicionesDeBorde.py**: se define una función que determina los elementos que pertenecen a las superficies $S\_q$ y $S\_c$, además de los nodos de cada elemento que pertenecen a dichas superficies
+- **ensamble.py**: se define una función que ensambla todas las matrices y vectores locales (de cada elemento) para así obtener las matrices y vectores globales
+- **coeficienteDeConveccion.py**: se calcula el coeficiente de convección de cada elemento a partir de la correlación de flujo forzado sobre placa plana, utilizando la velocidad de traslación del vehículo
 - 
