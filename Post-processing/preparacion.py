@@ -64,9 +64,11 @@ with open('Malla5//disco.msh','r') as m:
 #ultimas 4 columnas
 MC3D = np.delete(MC3D,[0,1,2,3,4],axis=1)
 
-
 #Velocidad considerada (depende del caso)
 V = 250 #km/h 
 #Se cargan los resultados obtenidos del processing
 path = f'RESULTADOS//NO LINEAL//{V}kmh//resultados_{V}.txt'
 T = np.loadtxt(path,delimiter=',')
+#Temperatura maxima alcanzada
+Tmax = np.amax(T)
+print(f'Temperatura maxima: {Tmax}')
