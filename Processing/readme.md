@@ -14,4 +14,6 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **condicionesDeBorde.py**: se define una función que determina los elementos que pertenecen a las superficies $S\_q$ y $S\_c$, además de los nodos de cada elemento que pertenecen a dichas superficies
 - **ensamble.py**: se define una función que ensambla todas las matrices y vectores locales (de cada elemento) para así obtener las matrices y vectores globales
 - **coeficienteDeConveccion.py**: se calcula el coeficiente de convección de cada elemento a partir de la correlación de flujo forzado sobre placa plana, utilizando la velocidad de traslación del vehículo
-- 
+- **parametrosFisicos**: se definen los datos físicos y condiciones iniciales del problema (masa del vehículo, coeficiente de Drag, tiempo de frenada, velocidad inicial, etc...)
+- **resolucionNumerica**: se definen los parámetros numéricos (como pasos temporales) y se resuelve el sistema no lineal de ecuaciones utilizando los métodos de Picard y Crank-Nicholson
+-  
