@@ -9,4 +9,5 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **matrizMasaLocal**: se calcula la matriz de masa de un elemento
 - **conveccionLocal**: se calcula la matriz de rigidez y el vector de calor de un elemento debidos a la condición de borde de convección
 - **matrizRigidezLocal**: se calcula la matriz de rigidez por conducción de un elemento
+- **vectorCalorNeumannLocal**: se calcula el vector de calor de un elemento debido a la condición de borde de Neumann (calor generado por la fricción entre la pastilla y el disco de frenos)
 - 
