@@ -1,6 +1,4 @@
-#Temperatura maxima alcanzada
-Tmax = np.amax(T)
-print(f'Temperatura maxima: {Tmax}')
+#VIDEOS
 #Se redefine el paso temporal inicial
 Δt = Δt_min #s
 #Nombre del video que sera guardado
