@@ -16,4 +16,3 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **coeficienteDeConveccion.py**: se calcula el coeficiente de convección de cada elemento a partir de la correlación de flujo forzado sobre placa plana, utilizando la velocidad de traslación del vehículo
 - **parametrosFisicos**: se definen los datos físicos y condiciones iniciales del problema (masa del vehículo, coeficiente de Drag, tiempo de frenada, velocidad inicial, etc...)
 - **resolucionNumerica**: se definen los parámetros numéricos (como pasos temporales) y se resuelve el sistema no lineal de ecuaciones utilizando los métodos de Picard y Crank-Nicholson
--  
