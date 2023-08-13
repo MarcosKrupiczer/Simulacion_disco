@@ -14,7 +14,6 @@ Siendo $S_c$ la superficie del disco expuesta al aire exterior, $\underline{n\_c
 
 Se tiene también una condición de borde del tipo Neumann, que representa la generación de calor por fricción en la superficie de contacto entre la pastilla y el disco de frenos.
 
-![hola](Processing/prop_aire.png)
 $$q=-\ ^tk \ ^t\underline{\nabla} \ ^tT \cdot \underline{n\_q}= \kappa \ \frac{m\frac{^tV^2}{t\_f} - \frac{1}{2}\rho\_\infty \ C\_D \ A\_R \ ^tV^3}{8 \ A\_f}\quad\quad ^t\underline{\text{x}} \ \in \ S\_q$$
 Siendo:
 - $m$ la masa del vehículo
@@ -26,3 +25,5 @@ Siendo:
 - $\kappa$ un coeficiente que determina qué porción de calor es absorbida por el disco: $\kappa=\frac{\sqrt{k \ c\_p \ \rho}}{\sqrt{k \ c\_p \ \rho} + \sqrt{k\_p \ c\_{p_p} \ \rho\_p}}$ (donde las propiedades con subíndice $p$ son las de la pastilla de frenos)
 
 Se plantean las propiedades (del disco y del aire) como funciones de la temperatura, por lo tanto, el problema se trata como uno no lineal.
+
+![](Processing/prop_aire.png)
