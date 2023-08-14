@@ -30,7 +30,7 @@ Las superficies donde se aplican las condiciones de borde son:
 <p align="center">
   <img width="400" height="400" src="Pre-processing/3d.png">
 </p>
-Se plantean las propiedades (del disco y del aire) como funciones de la temperatura, por lo tanto, el problema se trata como uno no lineal.
+Se realiza un análisis no lineal, en el cual las propiedades del disco como su conductividad térmica ($k$) y el producto de la densidad por el calor específico ($\rho \ c\_p$) dependen de su temperatura.
 
 <p align="center">
   <img width="700" height="600" src="Processing/prop_aire.png">
@@ -38,3 +38,5 @@ Se plantean las propiedades (del disco y del aire) como funciones de la temperat
 <p align="center">
   <img width="700" height="600" src="Processing/prop_disco.png">
 </p>
+
+Luego, se realiza también un análisis lineal en el cual se toman propiedades constantes. Se escogen las propiedades correspondientes a la temperatura inicial del disco. Se comparan las soluciones mediante ambos análisis.
