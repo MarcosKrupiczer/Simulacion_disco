@@ -33,10 +33,13 @@ Las superficies donde se aplican las condiciones de borde son:
 Se realiza un análisis no lineal, en el cual las propiedades del disco como su conductividad térmica (k) y el producto de la densidad por el calor específico (ρ cp) dependen de su temperatura.
 
 <p align="center">
-  <img width="700" height="600" src="Processing/prop_aire.png">
-</p>
-<p align="center">
   <img width="700" height="600" src="Processing/prop_disco.png">
 </p>
 
 Luego, se realiza también un análisis lineal en el cual se toman propiedades constantes. Se escogen las propiedades correspondientes a la temperatura inicial del disco. Se comparan las soluciones mediante ambos análisis.
+
+En ambos análisis se consideran las propiedades del aire como funciones de la temperatura (a la hora de calcular la temperatura de referencia cuando se busca obtener el coeficiente de convección).
+
+<p align="center">
+  <img width="700" height="600" src="Processing/prop_aire.png">
+</p>
