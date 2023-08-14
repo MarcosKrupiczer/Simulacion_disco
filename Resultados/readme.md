@@ -4,6 +4,9 @@ Se muestran los resultados obtenidos mediante análisis lineal (propiedades cons
 Además, se comparan las temperaturas máximas obtenidas en cada caso. Se puede observar que a medida que aumenta la velocidad inicial, es decir, a medida que aumenta el calor generado por fricción, las soluciones se alejan cada vez más.
 
 <p align="center">
+  <img width="600" height="500" src="Tmax_vs_V0.png">
+</p>
+<p align="center">
   <img width="600" height="500" src="error_vs_V0.png">
 </p>
 
