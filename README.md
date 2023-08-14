@@ -17,7 +17,7 @@ Se tiene también una condición de borde del tipo Neumann, que representa la ge
 $$q=-\ ^tk \ ^t\underline{\nabla} \ ^tT \cdot \underline{n\_q}= \kappa \ \frac{m\frac{V_0^2}{t\_f}\left(1-\frac{t}{t_f}\right) - \frac{1}{2}\rho\_\infty \ C\_D \ A\_R \ V_0^3\left(1-\frac{t}{t_f}\right)^3}{8 \ A\_f}\quad\quad ^t\underline{\text{x}} \ \in \ S\_q$$
 Siendo:
 - $m$ la masa del vehículo
-- $^tV$ la velocidad del vehículo
+- $V_0$ la velocidad inicial del vehículo
 - $t_f$ el tiempo de frenada
 - $\rho\_\infty$ la densidad de referencia del aire
 - $C\_D \ A\_R$ el coeficiente de Drag por el área de referencia
