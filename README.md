@@ -30,7 +30,7 @@ Las superficies donde se aplican las condiciones de borde son:
 <p align="center">
   <img width="400" height="400" src="Pre-processing/3d.png">
 </p>
-Se realiza un análisis no lineal, en el cual las propiedades del disco como su conductividad térmica ($k$) y el producto de la densidad por el calor específico ($\rho \ c\_p$) dependen de su temperatura.
+Se realiza un análisis no lineal, en el cual las propiedades del disco como su conductividad térmica $k$ y el producto de la densidad por el calor específico $\rho \ c\_p$ dependen de su temperatura.
 
 <p align="center">
   <img width="700" height="600" src="Processing/prop_aire.png">
