@@ -24,6 +24,8 @@ Siendo:
 - $A\_f$ el área de contacto entre pastilla y disco de frenos (área de la superficie $S\_q$ con normal $\underline{n\_q}$)
 - $\kappa$ un coeficiente que determina qué porción de calor es absorbida por el disco: $\kappa=\frac{\sqrt{k \ c\_p \ \rho}}{\sqrt{k \ c\_p \ \rho} + \sqrt{k\_p \ c\_{p_p} \ \rho\_p}}$ (donde las propiedades con subíndice $p$ son las de la pastilla de frenos)
 
+La deducción del flujo de calor surge de un balance de potencias del vehículo durante el proceso de frenado (se detalla la deducción en el archivo **TP_TCM_Krupiczer_rev2.pdf**)
+
 Las superficies donde se aplican las condiciones de borde son:
 <p align="center">
   <img width="400" height="400" src="Pre-processing/3d.png">
