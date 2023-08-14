@@ -10,4 +10,4 @@ Además, se comparan las temperaturas máximas obtenidas en cada caso. Se puede 
   <img width="600" height="500" src="error_vs_V0.png">
 </p>
 
-Aún así, se observa que mismo en caso tan extremo como una frenada con velocidad inicial de 250 km/h en un tiempo de 5 segundos, el error relativo porcentual entre ambas soluciones es tan solo del orden de 3%. 
+Aún así, se observa que mismo en caso tan extremo como una frenada con velocidad inicial de 250 km/h en un tiempo de 5 segundos, el error relativo porcentual entre ambas soluciones es tan solo del orden de 3%. Se puede concluir en este caso que no es necesario realizar un análisis no lineal, cuando con un análisis lineal de mucho menor costo computacional, se obtienen resultados tan similares.
