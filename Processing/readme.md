@@ -20,3 +20,7 @@ En esta seccion, se realiza el procesado, es decir, se aplica el método de elem
 - **propiedadesAire.py**: se definen las propiedades como la conductividad térmica y la viscosidad cinemática del aire en función de su temperatura
 - **propiedadesDisco.py**: se definen las propiedades como la conductividad térmica y el producto de la densidad por el calor específico del material del disco (fundición gris) en función de su temperatura
 - **resolucionNumerica.py**: se definen los parámetros numéricos (como pasos temporales) y se resuelve el sistema no lineal de ecuaciones utilizando los métodos de Picard y Crank-Nicholson
+
+Se adjuntan además, imágenes de los gráficos de las propiedades relevantes del aire y de la fundición gris del disco en función de la temperatura: **prop_aire.png** y **prop_disco.png**
+
+Se muestra también una imágen del diagrama de flujo representativo del algoritmo utilizado en el código **resolucionNumerica.py**: **flujo.png**
