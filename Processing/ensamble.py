@@ -12,6 +12,7 @@
 #CDA: coeficiente de Drag por Area del vehiculo [m^2]
 #ω: velocidad angular
 #γ: aceleracion angular
+#V: velocidad de traslacion del vehiculo
 #m: masa del vehiculo
 #nGauss: numero de puntos de Gauss para la integracion numerica
 def ensamble(X_orig,X,T,elem_neumann,elem_conveccion,MC3D,nElementos3D,T_aire,CDA,ω,γ,V,m,nGauss):
@@ -34,11 +35,15 @@ def ensamble(X_orig,X,T,elem_neumann,elem_conveccion,MC3D,nElementos3D,T_aire,CD
             #almacena en la posicion (e) del vector de temperaturas elementales
             Telem[e] += 1/nodosXelemento3D*T[int(MC3D[e][j]-1)][0]
         #Se obtiene la conductividad termica del elemento del disco
-        #k = funcion_k_fundicion(Telem[e])
-        k = funcion_k_fundicion(298)
+        #En un analisis no lineal:
+        k = funcion_k_fundicion(Telem[e])
+        #En un analisis lineal
+        #k = funcion_k_fundicion(298)
         #Se obtiene el producto densidad calor especifico del elemento del disco
-        #ρcp = funcion_ρcp_fundicion(Telem[e])
-        ρcp = funcion_ρcp_fundicion(298)
+        #En un analisis no lineal
+        ρcp = funcion_ρcp_fundicion(Telem[e])
+        #En un analisis lineal
+        #ρcp = funcion_ρcp_fundicion(298)
         #Difusividad termica en el disco
         α = k/(ρcp)
         #Condicion de borde de conveccion
