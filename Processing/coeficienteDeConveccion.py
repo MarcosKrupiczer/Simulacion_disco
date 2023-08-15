@@ -3,7 +3,7 @@
 #utilizando la correlacion de flujo forzado externo sobre placa plana
 #Toma como argumentos:
 #V: velocidad de traslacion del vehiculo [m/s]
-#Te: temperatura del elemento (e) [K]
+#Te: temperatura promedio del elemento (e) [K]
 #T_aire: temperatura del aire ambiente [K]
 #Le: longitud caracteristica del elemento (e) [m]
 def funcion_hc(V,Te,T_aire,Le):
@@ -11,8 +11,7 @@ def funcion_hc(V,Te,T_aire,Le):
         hc = 0
     else:
         #Temperatura de referencia
-        TR = (Te+T_aire)/2
-        #T es la temperatura del elemento considerado
+        TR = (Te+T_aire)/2 #Te es la temperatura promedio del elemento considerado
         #Conductividad termica del aire
         ka = funcion_k_aire(TR)
         #Numero de Prandlt del aire
