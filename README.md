@@ -32,6 +32,8 @@ Siendo:
 
 La deducción del flujo de calor surge de un balance de potencias del vehículo durante el proceso de frenado (se detalla la deducción en el archivo **TP_TCM_Krupiczer_rev2.pdf**)
 
+Para analizar distintas condiciones de procesos de frenados más o menos agresivos, se puede variar la velocidad inicial $V\_0$ y el tiempo de frenada $t\_f$.
+
 Las superficies donde se aplican las condiciones de borde son:
 <p align="center">
   <img width="400" height="400" src="Pre-processing/3d.png">
