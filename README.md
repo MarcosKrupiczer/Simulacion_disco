@@ -11,7 +11,9 @@ $$^t\underline{\text{v}} \ = \ ^t\underline{\text{v}_d} \ + \ ^t\underline{\text
 $$^t\underline{\text{v}_d} = -\ ^t\omega \ ^ty \ \underline{e_x} + \ ^t\omega \ ^tx \ \underline{e_y}$$
 $$^t\underline{\text{v}_t} = -\ ^tV \ \underline{e_x}$$
 Se considera una disminución lineal de la velocidad en el proceso de frenado:
-$$^tV = V\_0\left(1-\frac{t}{t\_f}\right)$$
+$$^tV = V\_0\left(1-\frac{t}{t\_f}\right)\quad\quad^t\omega=\frac{V\_0}{R\_r}\left(1-\frac{t}{t\_f}\right)$$
+Siendo $R\_r$ el radio de la rueda.
+
 Por motivos de estabilidad numérica, se considera únicamente la velocidad de rotación de las partículas en la ecuación diferencial. La componente de traslación se toma en cuenta agregando una condición de borde de convección:
 $$q\_{\text{conv}}=-\ ^tk \ ^t\underline{\nabla} \ ^tT \cdot \underline{n\_c} = \ ^th_c\left(^tT-T\_{\infty}\right) \quad\quad ^t\underline{\text{x}} \ \in \ S\_c$$
 Siendo $S_c$ la superficie del disco expuesta al aire exterior, $\underline{n\_c}$ su normal, y $T\_\infty$ la temperatura de referencia de del aire. El coeficiente de convección se obtiene a partir de la correlación de flujo forzado sobre una placa plana, utilizando únicamente la velocidad de traslación del vehículo. 
