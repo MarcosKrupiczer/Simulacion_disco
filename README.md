@@ -51,3 +51,11 @@ En ambos análisis se consideran las propiedades del aire como funciones de la t
 <p align="center">
   <img width="700" height="600" src="Processing/prop_aire.png">
 </p>
+
+En la carpeta **Pre-processing** se detalla todo lo relacionado con la generación de la geometría y de la malla, además de la obtención de las matrices necesarias para empezar a resolver el problema mediante el método de elementos finitos (coordenadas de los nodos y conectividad entre nodos y elementos).
+
+En la carpeta **Processing** se adjuntan todos los códigos necesarios para resolver el problema aplicando el método de elementos finitos. Se calculan las matrices y vectores necesarios, y se resuelve el sistema de ecuaciones diferenciales no lineales, para obtener finalmente las temperaturas en los nodos.
+
+En la carpeta **Post-processing** se tienen los códigos utilizados para producir videos, imágenes de cortes y gráficos (plots) de las temperaturas obtenidas previamente.
+
+En la carpeta **Resultados** se muestran todos los resultados obtenidos mediante los análisis lineal y no lineal.
