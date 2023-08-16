@@ -59,3 +59,5 @@ En la carpeta **Processing** se adjuntan todos los códigos necesarios para reso
 En la carpeta **Post-processing** se tienen los códigos utilizados para producir videos, imágenes de cortes y gráficos (plots) de las temperaturas obtenidas previamente.
 
 En la carpeta **Resultados** se muestran todos los resultados obtenidos mediante los análisis lineal y no lineal.
+
+El archivo **TP_TCM_Krupiczer_rev2.pdf** es un informe en el cual se explica detalladamente todo el procedimiento, paso a paso, desde la deducción del flujo de calor producido por la fricción, hasta el análisis de los resultados y del modelo empleado. Se explican los cálculos de cada matriz y vector, así como la forma de calcular las integrales numéricamente, y los algoritmos empleados para resolver el aspecto transitorio y la no linealidad, manteniendo el sistema numéricamente estable.
